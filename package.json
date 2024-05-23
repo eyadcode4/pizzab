@@ -1,0 +1,14 @@
+{
+  "name": "pizzab",
+  "version": "1.0.0",
+  "description": "pizzab",
+  "main": "app.js",
+  "scripts": {
+    "test": "pizzabb"
+  },
+  "keywords": [
+    "pizzabbb"
+  ],
+  "author": "eyad",
+  "license": "ISC"
+}
