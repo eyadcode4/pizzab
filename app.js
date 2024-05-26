@@ -7,7 +7,7 @@ let pizza = ""
 
 function app ( ){
     function mixingridiente(){
-    console.log( "add harina " + integradient[0] + "add levadura  mas " + integradient[1] + "add agua" + integradient[2] + "add sal" + integradient[3] + "add aceite " + integradient[4])
+    console.log( "add harina " + ingredients[0] + "add levadura  mas " + ingredients[1] + "add agua" + ingredients[2] + "add sal" + ingredients[3] + "add aceite " + ingredients[4])
 }
     function knead(){
     console.log("mix all ingredients togather")
