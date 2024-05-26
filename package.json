@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "pizzab",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "pizzabb"
   },
@@ -10,5 +11,8 @@
     "pizzabbb"
   ],
   "author": "eyad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
