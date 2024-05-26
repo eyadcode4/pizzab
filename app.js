@@ -5,7 +5,12 @@ const toping = ["salsa  de tomate", "mazurela", "atun" ]
 const pizzaType = [{name: "peperoni", ingredientsTopping: ["tomate", "mazorella", "atun"]}, {name: "margarita", ingredientsTopping: ["tomate", "mazorella"]}]
 let pizza = ""
 
+import PromptSync from "prompt-sync";
+
 function app ( ){
+    const prompt = PromptSync();
+    const pizzaName = prompt("elige tu pizzaType");
+    
     function mixingridiente(){
     console.log( "add harina " + ingredients[0] + "add levadura  mas " + ingredients[1] + "add agua" + ingredients[2] + "add sal" + ingredients[3] + "add aceite " + ingredients[4])
 }
