@@ -44,7 +44,7 @@ function app() {
     darForma();
     fourProporcions();
     bases();
-    Reposo();
+    reposo();
     formaMasa();
     addTomate();
     addMozzarella();
@@ -90,7 +90,7 @@ function app() {
     function bases(){
         console.log("base para 1 pizza");
     }
-    function Reposo(){
+    function reposo(){
         console.log(" Dejar la base para 1 pizza reposar durante 45 min ");
     }
     function formaMasa(){
